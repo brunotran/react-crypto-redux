@@ -110,8 +110,8 @@ const Table = ({ coinDataProp }) => {
                                 return a.price_change_percentage_24h - b.price_change_percentage_24h;
                             case "1sreverse":
                                 return a.price_change_percentage_7d_in_currency - b.price_change_percentage_7d_in_currency;
-                            case "1m":
-                                return b.price_change_percentage_30d_in_currency - a.price_change_percentage_30d_in_currency;
+                            case "1mreverse":
+                                return a.price_change_percentage_30d_in_currency - b.price_change_percentage_30d_in_currency;
                             case "6mreverse":
                                 return a.price_change_percentage_200d_in_currency - b.price_change_percentage_200d_in_currency;
                             case "1areverse":
