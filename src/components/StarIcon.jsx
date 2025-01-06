@@ -18,7 +18,7 @@ const StarIcon = ({ coinIdProp }) => {
                 setLike(false);
             }
         }
-    }, []);
+    }, [coinIdProp]);
 
     //vérifier si on a coché ou pas, et mettre dans localStorage
     const idChecker = (id) => {
